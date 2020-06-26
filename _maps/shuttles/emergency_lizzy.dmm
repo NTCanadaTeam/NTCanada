@@ -125,10 +125,6 @@
 "ek" = (
 /turf/open/floor/wood,
 /area/shuttle/escape)
-"eU" = (
-/obj/structure/flora/tree/jungle,
-/turf/open/floor/grass,
-/area/shuttle/escape)
 "fa" = (
 /obj/machinery/status_display/evac,
 /turf/closed/wall/mineral/titanium/nodiagonal,
@@ -187,10 +183,23 @@
 /obj/machinery/light,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/escape)
+"ms" = (
+/obj/structure/sink/puddle,
+/turf/open/floor/grass,
+/area/shuttle/escape)
 "mz" = (
 /obj/structure/window/reinforced/spawner/east,
 /obj/structure/window/reinforced/spawner/north,
 /mob/living/simple_animal/butterfly,
+/turf/open/floor/grass,
+/area/shuttle/escape)
+"mB" = (
+/obj/structure/flora/ausbushes/grassybush,
+/turf/open/floor/grass,
+/area/shuttle/escape)
+"ng" = (
+/obj/structure/window/reinforced/spawner,
+/obj/structure/flora/ausbushes/reedbush,
 /turf/open/floor/grass,
 /area/shuttle/escape)
 "nJ" = (
@@ -258,13 +267,29 @@
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/escape)
-"xy" = (
+"wm" = (
+/obj/structure/window/reinforced/spawner,
+/obj/structure/flora/ausbushes/genericbush,
+/turf/open/floor/grass,
+/area/shuttle/escape)
+"Am" = (
 /obj/structure/window/reinforced/spawner/east,
+/obj/structure/flora/ausbushes/pointybush,
 /turf/open/floor/grass,
 /area/shuttle/escape)
 "CO" = (
 /obj/machinery/jukebox,
 /turf/open/floor/wood,
+/area/shuttle/escape)
+"DQ" = (
+/obj/structure/window/reinforced/spawner/north,
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/open/floor/grass,
+/area/shuttle/escape)
+"Ee" = (
+/obj/structure/window/reinforced/spawner,
+/obj/structure/flora/ausbushes/lavendergrass,
+/turf/open/floor/grass,
 /area/shuttle/escape)
 "FZ" = (
 /obj/structure/table,
@@ -284,8 +309,17 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/escape)
+"GC" = (
+/obj/structure/flora/ausbushes/fernybush,
+/turf/open/floor/grass,
+/area/shuttle/escape)
 "GD" = (
 /obj/structure/window/reinforced/spawner/north,
+/turf/open/floor/grass,
+/area/shuttle/escape)
+"Ha" = (
+/obj/structure/window/reinforced/spawner/north,
+/obj/structure/flora/ausbushes/leafybush,
 /turf/open/floor/grass,
 /area/shuttle/escape)
 "Hb" = (
@@ -295,10 +329,6 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/escape)
-"Jp" = (
-/obj/structure/window/reinforced/spawner,
-/turf/open/floor/grass,
 /area/shuttle/escape)
 "MC" = (
 /obj/structure/table/wood{
@@ -372,6 +402,11 @@
 "Vl" = (
 /obj/machinery/light,
 /turf/open/floor/wood,
+/area/shuttle/escape)
+"VH" = (
+/obj/structure/window/reinforced/spawner,
+/obj/structure/flora/ausbushes/palebush,
+/turf/open/floor/grass,
 /area/shuttle/escape)
 "VS" = (
 /obj/structure/chair/comfy/shuttle{
@@ -457,8 +492,8 @@ ad
 vr
 ek
 GD
-ZO
-Jp
+GC
+ng
 ek
 ek
 ad
@@ -480,9 +515,9 @@ aJ
 ad
 ek
 ek
-GD
+Ha
 Nl
-Jp
+Ee
 ek
 ek
 ad
@@ -505,8 +540,8 @@ ad
 ek
 ek
 GD
-eU
-Jp
+ZO
+VH
 ek
 ek
 nJ
@@ -528,9 +563,9 @@ ac
 fa
 ek
 ek
-GD
-ZO
-Jp
+DQ
+ms
+wm
 ek
 ek
 ad
@@ -553,7 +588,7 @@ Rh
 ek
 ek
 ku
-ZO
+mB
 Pn
 ek
 Vl
@@ -577,7 +612,7 @@ af
 ek
 ek
 mz
-xy
+Am
 tI
 ek
 ek
