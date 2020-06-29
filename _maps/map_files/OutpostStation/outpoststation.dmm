@@ -402,7 +402,7 @@
 /area/security/processing)
 "abH" = (
 /obj/structure/rack,
-/obj/effect/spawner/lootdrop/techstorage/RnD_secure,
+/obj/effect/spawner/lootdrop/techstorage/rnd_secure,
 /turf/open/floor/plasteel,
 /area/storage/tech)
 "abI" = (
@@ -1036,7 +1036,7 @@
 /area/crew_quarters/heads/chief)
 "aeu" = (
 /obj/structure/table/reinforced,
-/mob/living/simple_animal/parrot/Poly,
+/mob/living/simple_animal/parrot/poly,
 /turf/open/floor/plasteel/showroomfloor,
 /area/crew_quarters/heads/chief)
 "aev" = (
@@ -2119,9 +2119,7 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "aiT" = (
-/obj/item/storage/secure/safe/HoS{
-	pixel_x = 35
-	},
+/obj/item/storage/secure/safe/hos,
 /obj/machinery/light{
 	dir = 4
 	},
@@ -2402,7 +2400,7 @@
 /turf/open/floor/plating,
 /area/science)
 "akg" = (
-/mob/living/simple_animal/pet/dog/corgi/Ian,
+/mob/living/simple_animal/pet/dog/corgi/ian,
 /turf/open/floor/carpet/blue,
 /area/crew_quarters/heads/hop)
 "akh" = (
@@ -5287,7 +5285,7 @@
 /area/maintenance/port/central)
 "awm" = (
 /obj/structure/rack,
-/obj/effect/spawner/lootdrop/techstorage/AI,
+/obj/effect/spawner/lootdrop/techstorage/ai,
 /turf/open/floor/plasteel,
 /area/storage/tech)
 "awn" = (
@@ -5554,7 +5552,7 @@
 /turf/open/floor/wood,
 /area/library)
 "axx" = (
-/obj/structure/closet/secure_closet/CMO,
+/obj/structure/closet/secure_closet/chief_medical,
 /turf/open/floor/carpet/cyan,
 /area/crew_quarters/heads/cmo)
 "axz" = (
@@ -7062,7 +7060,7 @@
 /turf/open/floor/plasteel/white,
 /area/science/server)
 "aEa" = (
-/mob/living/simple_animal/pet/fox/Renault,
+/mob/living/simple_animal/pet/fox/renault,
 /turf/open/floor/carpet/royalblue,
 /area/crew_quarters/heads/captain)
 "aEb" = (
@@ -13536,7 +13534,7 @@
 /turf/open/floor/engine/o2,
 /area/engine/atmos)
 "eoh" = (
-/mob/living/simple_animal/pet/cat/Runtime,
+/mob/living/simple_animal/pet/cat/runtime,
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
@@ -16574,8 +16572,8 @@
 /turf/open/floor/wood,
 /area/vacant_room/office)
 "nGE" = (
-/obj/item/aiModule/reset,
-/obj/item/aiModule/reset/purge,
+/obj/item/ai_module/reset,
+/obj/item/ai_module/reset/purge,
 /obj/structure/table,
 /obj/item/ai_module/core/full/asimov,
 /turf/open/floor/circuit,
@@ -17941,7 +17939,7 @@
 /turf/open/floor/plasteel/dark,
 /area/science/genetics)
 "rCJ" = (
-/obj/structure/closet/secure_closet/RD,
+/obj/structure/closet/secure_closet/research_director,
 /obj/machinery/camera{
 	c_tag = "Research Director's Office";
 	dir = 1;
