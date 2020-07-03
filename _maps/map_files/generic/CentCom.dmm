@@ -9133,27 +9133,6 @@
 	},
 /turf/open/floor/plating/airless,
 /area/syndicate_mothership/control)
-"uj" = (
-/obj/item/clipboard,
-/obj/item/folder/red,
-/obj/item/stamp/denied{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/item/stamp,
-/obj/structure/table/reinforced,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
 "uk" = (
 /obj/machinery/keycard_auth{
 	pixel_y = -24
@@ -17918,6 +17897,212 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/centcom/holding)
+"SC" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/obj/item/encryptionkey{
+	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "AI Private" = 1, "Syndicate" = 1);
+	desc = "An encryption key for a radio headset. Has ALL The channels. You really shouldn't have this.";
+	name = "universal encryption key";
+	pixel_y = 5;
+	syndie = 1;
+	translate_binary = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/ferry)
 "SD" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 8
@@ -53147,7 +53332,7 @@ oe
 rk
 sq
 to
-uj
+SC
 oe
 aa
 pz
