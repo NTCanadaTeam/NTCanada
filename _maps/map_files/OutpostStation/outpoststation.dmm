@@ -20,6 +20,11 @@
 /obj/machinery/vending/wardrobe/bar_wardrobe,
 /turf/open/floor/wood,
 /area/crew_quarters/bar)
+"abm" = (
+/obj/structure/table,
+/obj/item/book/manual/wiki/cooking_to_serve_man,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "abz" = (
 /obj/structure/window/reinforced/spawner/east,
 /obj/structure/window/reinforced/spawner,
@@ -1115,6 +1120,16 @@
 /obj/structure/closet/crate/secure/plasma,
 /turf/open/floor/plating,
 /area/engine/storage)
+"aXl" = (
+/obj/machinery/turretid{
+	control_area = "/area/ai_monitored/turret_protected/aisat/foyer";
+	name = "Foyer Turret Control";
+	pixel_x = -27;
+	req_access = null;
+	req_access_txt = "65"
+	},
+/turf/open/floor/circuit,
+/area/ai_monitored/turret_protected/aisat/foyer)
 "aXm" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
 /obj/effect/turf_decal/tile/purple{
@@ -1370,16 +1385,6 @@
 "bkn" = (
 /turf/open/floor/plasteel,
 /area/quartermaster/sorting)
-"bkx" = (
-/obj/structure/table,
-/obj/effect/turf_decal/tile/green{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/green{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/hydroponics)
 "blb" = (
 /obj/machinery/light{
 	dir = 4
@@ -1558,6 +1563,10 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
+"brN" = (
+/obj/item/book/manual/wiki/infections,
+/turf/open/floor/plasteel/white,
+/area/medical/virology)
 "brV" = (
 /obj/machinery/vending/coffee,
 /turf/open/floor/plasteel,
@@ -1669,6 +1678,15 @@
 /obj/effect/turf_decal/tile/purple,
 /turf/open/floor/plasteel/dark,
 /area/science)
+"bzn" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow,
+/obj/item/book/manual/wiki/engineering_construction,
+/turf/open/floor/plasteel,
+/area/engine/engineering)
 "bzv" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 4
@@ -1969,6 +1987,10 @@
 /obj/structure/cable,
 /turf/open/floor/wood,
 /area/library)
+"bPS" = (
+/obj/machinery/teleport/hub,
+/turf/open/floor/plasteel/dark,
+/area/ai_monitored/turret_protected/aisat/foyer)
 "bQa" = (
 /obj/machinery/atmospherics/components/unary/cryo_cell,
 /obj/effect/turf_decal/tile/blue{
@@ -2366,9 +2388,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
-"csm" = (
-/turf/open/floor/circuit,
-/area/ai_monitored/turret_protected/aisat/foyer)
 "csw" = (
 /obj/effect/landmark/start/station_engineer,
 /turf/open/floor/plasteel,
@@ -4637,6 +4656,11 @@
 	},
 /turf/open/floor/plasteel,
 /area/quartermaster/sorting)
+"eEi" = (
+/obj/structure/table/wood,
+/obj/item/book/manual/wiki/detective,
+/turf/open/floor/plasteel/grimy,
+/area/security/detectives_office)
 "eEn" = (
 /obj/structure/table,
 /obj/item/storage/toolbox/mechanical,
@@ -7494,6 +7518,10 @@
 	},
 /turf/open/floor/wood,
 /area/bridge/meeting_room)
+"hPv" = (
+/obj/machinery/teleport/station,
+/turf/open/floor/plasteel/dark,
+/area/ai_monitored/turret_protected/aisat/foyer)
 "hPX" = (
 /obj/structure/cable,
 /obj/machinery/door/airlock/highsecurity{
@@ -8214,6 +8242,17 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel,
 /area/hallway/primary/starboard)
+"iGp" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/item/book/manual/wiki/surgery,
+/turf/open/floor/plasteel/white,
+/area/medical/surgery/room_b)
 "iGK" = (
 /obj/structure/disposalpipe/junction/yjunction{
 	dir = 8
@@ -9136,21 +9175,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hydroponics)
-"jEX" = (
-/obj/structure/table,
-/obj/machinery/camera{
-	c_tag = "Engineering Storage";
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/yellow,
-/obj/effect/turf_decal/tile/yellow{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/engine/engineering)
 "jFa" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "AI Core";
@@ -9540,6 +9564,14 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/port/central)
+"jXp" = (
+/obj/structure/table,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/item/book/manual/wiki/atmospherics,
+/turf/open/floor/plasteel,
+/area/engine/atmos)
 "jXu" = (
 /obj/machinery/shower{
 	dir = 8;
@@ -10583,6 +10615,17 @@
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness/recreation)
+"kZi" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/green{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/green{
+	dir = 1
+	},
+/obj/item/book/manual/hydroponics_pod_people,
+/turf/open/floor/plasteel,
+/area/hydroponics)
 "kZL" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -11048,6 +11091,17 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
+"lzX" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/item/book/manual/wiki/medicine,
+/turf/open/floor/plasteel/white,
+/area/medical/storage)
 "lAq" = (
 /obj/effect/landmark/start/ai,
 /obj/structure/cable,
@@ -13814,6 +13868,14 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
+"otC" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/obj/item/book/manual/wiki/engineering_hacking,
+/turf/open/floor/plasteel,
+/area/engine/engineering)
 "oue" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
@@ -13823,15 +13885,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/surgery/room_b)
-"owd" = (
-/obj/structure/table,
-/obj/structure/cable,
-/obj/effect/turf_decal/tile/yellow{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/yellow,
-/turf/open/floor/plasteel,
-/area/engine/engineering)
 "owT" = (
 /obj/machinery/power/apc/auto_name/west,
 /obj/structure/cable,
@@ -14206,13 +14259,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/brig)
-"oNR" = (
-/obj/structure/table,
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/engine/engineering)
 "oOs" = (
 /obj/machinery/power/apc/auto_name/west,
 /obj/structure/cable,
@@ -14431,6 +14477,12 @@
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/plasteel/white,
 /area/medical/cryo)
+"oWn" = (
+/obj/machinery/computer/rdconsole/core{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ai_monitored/turret_protected/aisat/foyer)
 "oXe" = (
 /obj/structure/bookcase/random/fiction,
 /turf/open/floor/wood,
@@ -14801,6 +14853,22 @@
 	},
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
+"psv" = (
+/obj/structure/table,
+/obj/machinery/camera{
+	c_tag = "Engineering Storage";
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/obj/item/book/manual/wiki/engineering_singulo_tesla,
+/turf/open/floor/plasteel,
+/area/engine/engineering)
 "psF" = (
 /obj/structure/chair{
 	dir = 8
@@ -15946,16 +16014,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/bridge)
-"qDD" = (
-/obj/structure/table/glass,
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/turf/open/floor/plasteel/white,
-/area/medical/surgery/room_b)
 "qDN" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /obj/effect/turf_decal/delivery,
@@ -17940,6 +17998,10 @@
 /obj/structure/window/reinforced/spawner/west,
 /turf/open/space/basic,
 /area/space)
+"sDw" = (
+/obj/machinery/computer/teleporter,
+/turf/open/floor/plasteel/dark,
+/area/ai_monitored/turret_protected/aisat/foyer)
 "sDY" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
@@ -18000,20 +18062,6 @@
 /area/security/execution/transfer{
 	name = "Former Transfer Centre"
 	})
-"sHw" = (
-/obj/machinery/requests_console{
-	department = "Robotics";
-	departmentType = 2;
-	name = "Robotics RC";
-	pixel_y = 30;
-	receive_ore_updates = 1
-	},
-/obj/effect/turf_decal/tile/purple,
-/obj/effect/turf_decal/tile/purple{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/science/robotics/lab)
 "sHT" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 9
@@ -19057,10 +19105,6 @@
 "tNQ" = (
 /turf/open/floor/plasteel/white,
 /area/science/xenobiology)
-"tNV" = (
-/obj/structure/table/wood,
-/turf/open/floor/plasteel/grimy,
-/area/security/detectives_office)
 "tOw" = (
 /obj/structure/disposalpipe/junction/flip{
 	dir = 2
@@ -19655,6 +19699,11 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /turf/open/floor/plasteel,
 /area/quartermaster/miningoffice)
+"uyN" = (
+/obj/structure/table/reinforced,
+/obj/item/book/manual/wiki/telescience,
+/turf/open/floor/plasteel,
+/area/teleporter)
 "uyS" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
@@ -20607,16 +20656,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
-"vDt" = (
-/obj/structure/table,
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/turf/open/floor/plasteel/white,
-/area/medical/storage)
 "vDS" = (
 /obj/machinery/power/apc/auto_name/north,
 /obj/structure/cable,
@@ -21325,6 +21364,16 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/brig)
+"wst" = (
+/obj/structure/table,
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/yellow,
+/obj/item/book/manual/wiki/engineering_guide,
+/turf/open/floor/plasteel,
+/area/engine/engineering)
 "wsv" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -22901,6 +22950,21 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/prison)
+"xXc" = (
+/obj/machinery/requests_console{
+	department = "Robotics";
+	departmentType = 2;
+	name = "Robotics RC";
+	pixel_y = 30;
+	receive_ore_updates = 1
+	},
+/obj/effect/turf_decal/tile/purple,
+/obj/effect/turf_decal/tile/purple{
+	dir = 8
+	},
+/obj/item/book/manual/wiki/robotics_cyborgs,
+/turf/open/floor/plasteel/dark,
+/area/science/robotics/lab)
 "xXj" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/structure/cable,
@@ -23108,10 +23172,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/quartermaster/miningoffice)
-"ykd" = (
-/obj/machinery/computer/rdconsole/core,
-/turf/open/floor/plasteel/dark,
-/area/ai_monitored/turret_protected/aisat/foyer)
 "ykq" = (
 /obj/structure/kitchenspike,
 /turf/open/floor/carpet/purple,
@@ -48966,7 +49026,7 @@ nPt
 gVI
 nqe
 sNQ
-lDA
+uyN
 isv
 jrR
 jrR
@@ -50023,7 +50083,7 @@ egj
 egj
 eYN
 rQG
-bkx
+kZi
 mpQ
 fPs
 xnm
@@ -51328,7 +51388,7 @@ tex
 jNQ
 sRd
 aPe
-sHw
+xXc
 cZf
 kah
 cZf
@@ -51569,7 +51629,7 @@ qgz
 agj
 tBe
 diL
-pDl
+abm
 bqg
 pDl
 agj
@@ -54374,7 +54434,7 @@ oiG
 rzX
 dAL
 lqY
-qDD
+iGp
 hFW
 axQ
 oiG
@@ -57392,7 +57452,7 @@ vdZ
 vdZ
 xHQ
 exN
-pwc
+sDw
 quM
 xTo
 exN
@@ -57460,7 +57520,7 @@ sdl
 neg
 kUu
 isS
-vDt
+lzX
 neg
 neg
 fjs
@@ -57649,7 +57709,7 @@ uey
 uey
 vdZ
 exN
-ykd
+hPv
 dvI
 dvI
 exN
@@ -57906,7 +57966,7 @@ oBM
 uey
 uey
 exN
-dKs
+bPS
 dvI
 dvI
 exN
@@ -58433,7 +58493,7 @@ tRA
 tRA
 tRA
 tRA
-csm
+aXl
 nmg
 exN
 bKF
@@ -59448,9 +59508,9 @@ oBM
 uey
 uey
 exN
+dKs
+dvI
 pwc
-dvI
-dvI
 exN
 dvI
 dvI
@@ -59707,7 +59767,7 @@ vdZ
 exN
 cTh
 dvI
-dvI
+oWn
 exN
 eYE
 sSi
@@ -60025,7 +60085,7 @@ cuW
 cuW
 mGN
 nvA
-mjQ
+brN
 eFZ
 fmy
 mjQ
@@ -60318,7 +60378,7 @@ ocq
 vLi
 edw
 kyo
-tNV
+eEi
 vTv
 uVH
 oxX
@@ -64420,7 +64480,7 @@ jaM
 vPp
 dNl
 qKo
-mDi
+jXp
 uez
 pRG
 dNl
@@ -64702,7 +64762,7 @@ krv
 ini
 krv
 krv
-oNR
+otC
 eMk
 tYL
 tdK
@@ -66495,8 +66555,8 @@ xND
 bfJ
 rVH
 vtT
-owd
-bBg
+wst
+bzn
 nFN
 nNz
 rrc
@@ -67273,7 +67333,7 @@ kLl
 twi
 gMO
 gMO
-jEX
+psv
 tYL
 kiR
 aGn
