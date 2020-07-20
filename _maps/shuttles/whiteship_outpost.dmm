@@ -43,6 +43,10 @@
 /obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/abandoned/engine)
+"kC" = (
+/obj/structure/cable,
+/turf/open/floor/mineral/titanium,
+/area/shuttle/abandoned/crew)
 "mm" = (
 /obj/machinery/stasis,
 /turf/open/floor/mineral/titanium,
@@ -96,6 +100,22 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/abandoned/crew)
+"xt" = (
+/obj/docking_port/mobile{
+	callTime = 250;
+	dir = 2;
+	dwidth = 25;
+	height = 9;
+	id = "whiteship";
+	launch_status = 0;
+	movement_force = list("KNOCKDOWN" = 0, "THROW" = 0);
+	name = "Whiteship";
+	port_direction = 8;
+	preferred_direction = 4;
+	width = 34
+	},
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/abandoned/bridge)
 "xX" = (
 /obj/structure/cable,
 /turf/open/floor/mineral/titanium,
@@ -235,23 +255,6 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/abandoned/bridge)
-"TN" = (
-/obj/machinery/door/airlock/external/glass,
-/obj/docking_port/mobile{
-	callTime = 250;
-	dir = 2;
-	dwidth = 25;
-	height = 9;
-	id = "whiteship";
-	launch_status = 0;
-	movement_force = list("KNOCKDOWN" = 0, "THROW" = 0);
-	name = "Whiteship";
-	port_direction = 8;
-	preferred_direction = 4;
-	width = 34
-	},
-/turf/open/floor/plating/airless,
-/area/shuttle/abandoned/crew)
 "Uk" = (
 /turf/open/floor/mineral/titanium,
 /area/shuttle/abandoned/crew)
@@ -337,7 +340,7 @@ bK
 BV
 "}
 (4,1,1) = {"
-TN
+zD
 UY
 zD
 Uk
@@ -353,7 +356,7 @@ BV
 BV
 wj
 Nj
-Uk
+kC
 BV
 BV
 BV
@@ -364,7 +367,7 @@ Uk
 mJ
 Uk
 FM
-Uk
+kC
 mJ
 Uk
 tX
@@ -375,7 +378,7 @@ aR
 BV
 Uk
 gd
-Uk
+kC
 BV
 aR
 tX
@@ -386,7 +389,7 @@ BV
 BV
 ES
 Nj
-Uk
+kC
 BV
 BV
 BV
@@ -546,7 +549,7 @@ FQ
 RU
 "}
 (23,1,1) = {"
-RU
+xt
 Mq
 bs
 Zl

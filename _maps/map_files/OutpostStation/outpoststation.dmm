@@ -456,18 +456,6 @@
 "avR" = (
 /turf/closed/wall,
 /area/maintenance/department/medical)
-"awu" = (
-/obj/machinery/camera/autoname{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/purple{
-	dir = 8
-	},
-/turf/open/floor/plasteel/white,
-/area/science/nanite)
 "awy" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 1
@@ -6530,6 +6518,11 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/atmos)
+"gyn" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin,
+/turf/open/floor/wood,
+/area/library)
 "gyD" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/plasteel,
@@ -8485,6 +8478,16 @@
 "iIP" = (
 /turf/open/floor/circuit,
 /area/engine/gravity_generator)
+"iJW" = (
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/science/nanite)
 "iKq" = (
 /obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden,
 /obj/effect/turf_decal/tile/purple{
@@ -17453,6 +17456,18 @@
 /obj/machinery/telecomms/server/presets/medical,
 /turf/open/floor/plasteel/dark/telecomms,
 /area/tcommsat/server)
+"rGw" = (
+/obj/effect/turf_decal/tile/purple{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/science/nanite)
 "rGC" = (
 /obj/machinery/computer/mech_bay_power_console{
 	dir = 1
@@ -41901,26 +41916,26 @@ lXF
 lXF
 lXF
 lXF
-lXF
-lXF
-lXF
-lXF
-lXF
-lXF
-lXF
-lXF
-lXF
-lXF
-lXF
-lXF
-lXF
-lXF
-lXF
-lXF
-lXF
-lXF
-lXF
 fYZ
+lXF
+lXF
+lXF
+lXF
+lXF
+lXF
+lXF
+lXF
+lXF
+lXF
+lXF
+lXF
+lXF
+lXF
+lXF
+lXF
+lXF
+lXF
+lXF
 lXF
 lXF
 lXF
@@ -47879,7 +47894,7 @@ psT
 quj
 rHh
 ked
-awu
+uii
 jOe
 uii
 mJz
@@ -48395,7 +48410,7 @@ rHh
 vhA
 eiR
 wVz
-eiR
+iJW
 opM
 wqb
 mDg
@@ -48909,7 +48924,7 @@ rHh
 baw
 hep
 boK
-boK
+rGw
 bhL
 wqb
 mDg
@@ -63839,7 +63854,7 @@ hUP
 tlw
 niQ
 aPp
-utn
+gyn
 qBe
 qBe
 qBe
